@@ -34,9 +34,9 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  body{
+  /* body{
 background-color: black;
-  }
+  } */
 
   h1 {
     font-size: 3.125rem;
@@ -63,8 +63,9 @@ background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    box-sizing: inherit;
+    flex-wrap: wrap;
+    padding: 2rem;
+    box-sizing:content-box;
     position: relative;
   }
 
@@ -171,5 +172,3 @@ background-color: black;
       margin-block: 1.5rem;
     }
   }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
